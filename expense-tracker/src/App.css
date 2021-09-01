@@ -1,0 +1,11 @@
+body {
+  background-color: #efefef;
+  margin: 0.5rem 0;
+}
+.app {
+  min-height: 100vh;
+  width: 35%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0.5rem;
+}

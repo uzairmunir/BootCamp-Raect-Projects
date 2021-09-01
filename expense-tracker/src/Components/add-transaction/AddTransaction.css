@@ -1,0 +1,36 @@
+.add-transaction {
+  padding: 0.5rem;
+}
+.add-transaction > h4 {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.form-control {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-control > label {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+.form-control > input {
+  width: 100%;
+  padding: 0.6rem 0;
+  outline: none;
+  font-weight: bold;
+}
+.add-btn {
+  background-color: rgb(64, 133, 224);
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border: 0;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
