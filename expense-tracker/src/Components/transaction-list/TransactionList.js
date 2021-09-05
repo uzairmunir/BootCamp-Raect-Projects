@@ -5,6 +5,7 @@ import { TransactionContext } from '../context/ContextApi';
 
 const TransactionList = () => {
   const { transactions } = useContext(TransactionContext);
+
   return (
     <div className='transaction-list'>
       <h4>History</h4>

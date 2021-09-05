@@ -1,0 +1,16 @@
+.card {
+  margin: 1rem !important;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.card.infected {
+  border-bottom: 10px solid #455ede;
+}
+.card.recovered {
+  border-bottom: 10px solid #27f253;
+}
+.card.deaths {
+  border-bottom: 10px solid #f23538;
+}

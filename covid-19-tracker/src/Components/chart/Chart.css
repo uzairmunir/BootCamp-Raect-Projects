@@ -1,0 +1,12 @@
+.chart-container {
+  display: flex;
+  width: 70%;
+  padding: 2rem;
+}
+
+@media (max-width: 500px) {
+  .chart-container {
+    width: 100%;
+    padding: 1rem;
+  }
+}
