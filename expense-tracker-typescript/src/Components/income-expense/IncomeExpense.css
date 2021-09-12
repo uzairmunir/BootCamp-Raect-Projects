@@ -1,0 +1,16 @@
+.income-expense {
+  background-color: rgb(238, 236, 236);
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.income {
+  color: rgb(40, 223, 213);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.expense {
+  color: rgb(228, 90, 90);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}

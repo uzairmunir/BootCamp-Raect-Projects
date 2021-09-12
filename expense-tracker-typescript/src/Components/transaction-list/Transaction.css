@@ -1,0 +1,48 @@
+.transaction-list {
+  padding: 0.5rem;
+}
+.transaction-list > h4 {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.list {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+.list li {
+  background-color: rgb(241, 242, 243);
+  padding: 0.7rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.transaction {
+  position: relative;
+}
+.del-btn {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  background-color: rgb(243, 57, 57);
+  height: 1rem;
+  width: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+  align-items: center;
+  color: white;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.3rem;
+  opacity: 0;
+  cursor: pointer;
+}
+.transaction .del-btn:hover {
+  opacity: 1;
+}
+.income-li {
+  border-right: 4px solid rgb(26, 165, 26);
+}
+.expense-li {
+  border-right: 4px solid rgb(165, 26, 49);
+}
