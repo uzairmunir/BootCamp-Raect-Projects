@@ -1,0 +1,71 @@
+.profile-container {
+  margin-top: 2rem;
+  min-height: 100vh;
+}
+.profile-container > h1 {
+  color: rgb(199, 199, 199);
+  padding: 0.5rem 0;
+}
+.profile-container > h2 {
+  padding: 0.5rem 0;
+}
+.launch-detail,
+.rocket-detail,
+.description {
+  background-color: rgb(58, 57, 57);
+  padding: 0.2rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  color: rgb(199, 199, 199);
+}
+.success {
+  color: rgb(14, 190, 14);
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+.false {
+  color: rgb(219, 50, 50);
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+.back-btn {
+  padding: 0.5rem 2rem;
+  background-color: gray;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+.image {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+}
+@media (max-width: 700px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-container {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+}
