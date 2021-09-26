@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  min-height: 100vh;
+  padding: 0.5rem 5rem;
+  color: white;
+}
+@media (max-width: 500px) {
+  body {
+    padding: 1rem;
+  }
+}
