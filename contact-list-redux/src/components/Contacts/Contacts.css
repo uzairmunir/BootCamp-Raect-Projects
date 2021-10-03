@@ -1,0 +1,40 @@
+.contacts-container {
+  padding: 1rem 4rem;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+thead {
+  background-color: #333;
+  color: white;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.actions > a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .contacts-container {
+    padding: 1rem;
+  }
+  table {
+    max-width: 100%;
+  }
+}
