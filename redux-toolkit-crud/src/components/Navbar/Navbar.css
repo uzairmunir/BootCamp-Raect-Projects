@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 4rem;
+  background-color: rgb(62, 62, 189);
+  color: white;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav > a > button {
+  padding: 0.5rem 1rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+@media (max-width: 500px) {
+  nav {
+    min-width: 100%;
+  }
+}

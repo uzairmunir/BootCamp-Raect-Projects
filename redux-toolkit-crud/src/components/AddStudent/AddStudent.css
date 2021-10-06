@@ -1,0 +1,42 @@
+.add-contact-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+.add-contact-container > h1 {
+  text-align: center;
+  padding: 0.5rem;
+  color: crimson;
+}
+.add-contact-container > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  border: 1px solid gray;
+}
+form > input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin: 0.4rem 0;
+}
+form > input:focus {
+  outline: none;
+}
+form > button {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  outline: none;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

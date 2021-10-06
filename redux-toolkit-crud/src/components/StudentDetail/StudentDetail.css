@@ -1,0 +1,41 @@
+.student-detail {
+  align-items: center;
+  padding: 2rem;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #efefef;
+  margin-top: 2rem;
+  color: #333;
+  position: relative;
+}
+.student-detail > h3 {
+  padding: 0.3rem 1rem;
+  text-align: center;
+}
+.student-detail > h4 {
+  padding: 0.3rem 1rem;
+  text-align: center;
+}
+.back-btn {
+  position: absolute;
+  top: 0.5rem;
+  left: 2;
+  color: #333;
+  border: 1px dotted gray;
+  padding: 0.5rem 1rem;
+  border-radius: 30%;
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .student-detail {
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #efefef;
+    margin-top: 2rem;
+    color: #333;
+  }
+}
