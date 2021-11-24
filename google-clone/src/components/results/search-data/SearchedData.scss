@@ -1,0 +1,33 @@
+.search-container {
+  padding: 0.2rem 3rem;
+  margin-top: 1rem;
+
+  .searched-data {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    > a {
+      text-decoration: none;
+
+      > h5 {
+        color: #333;
+      }
+      > p {
+        padding: 0.2rem 0;
+        font-size: 1.1rem;
+      }
+    }
+    & a:hover {
+      text-decoration: underline;
+    }
+    > p {
+      color: #333;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .search-container {
+    padding: 0.2rem 1rem;
+  }
+}
